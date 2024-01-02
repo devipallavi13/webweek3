@@ -1,0 +1,37 @@
+body{
+    background-color: pink;
+}
+label{
+    font-family: cursive;
+    font-style: italic;
+    color: brown;
+    text-shadow: 1px 1px #a5e2f5;
+}
+input{
+    color: rgb(1, 16, 16);
+    background-color: rgb(175, 227, 245);
+    font-family: cursive;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 500px;
+
+}
+label{
+    display: inline-block;
+    width: 45%;
+}
+input {
+width: 45%;
+padding: 8px;
+margin-bottom: 10px;
+}
+.Gender{
+display: flex;
+flex-direction: row;
+padding-left: 15%;
+}
